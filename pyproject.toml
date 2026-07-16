@@ -1,0 +1,17 @@
+[project]
+name = "scrapy-shop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "pillow>=12.3.0",
+    "psycopg[binary]>=3.2",
+    "pytz>=2026.2",
+    "redis>=5.0",
+    "scrapy==2.16",
+    "scrapy-playwright>=0.0.48",
+    "scrapy-redis>=0.9.1",
+    "sqlalchemy>=2.0",
+]
